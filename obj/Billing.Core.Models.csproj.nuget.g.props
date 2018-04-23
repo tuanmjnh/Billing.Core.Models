@@ -8,7 +8,11 @@
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/tuanmjnh/.nuget/packages/;/usr/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.7.0</NuGetToolVersion>
+=======
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.6.2</NuGetToolVersion>
+>>>>>>> 6dc10971895bc34d09c5988b787c545b7e279e2e
 =======
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.6.2</NuGetToolVersion>
 >>>>>>> 6dc10971895bc34d09c5988b787c545b7e279e2e

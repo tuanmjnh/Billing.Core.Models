@@ -5,6 +5,7 @@ namespace Billing.Core.Models {
 
     [Table("SETTINGS")]
     public partial class SETTINGS {
+         [Dapper.Contrib.Extensions.ExplicitKey]
         public Guid ID { get; set; }
 
         [StringLength(256)]

@@ -2,7 +2,7 @@ namespace Billing.Core.Models {
     using System.ComponentModel.DataAnnotations.Schema;
     using System.ComponentModel.DataAnnotations;
     using System;
-
+    
     [Table("DD")]
     public partial class DD {
         [Dapper.Contrib.Extensions.ExplicitKey]

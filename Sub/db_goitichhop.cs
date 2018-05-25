@@ -5,7 +5,7 @@ namespace Billing.Core.Models {
 
     [Table("db_goitichhop")]
     public partial class db_goitichhop {
-        [Dapper.Contrib.Extensions.ExplicitKey]
+        // [Dapper.Contrib.Extensions.ExplicitKey]
         public int id_goitichhop { get; set; }
 
         [StringLength(512)]

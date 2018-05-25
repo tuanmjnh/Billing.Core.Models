@@ -5,7 +5,7 @@
 
     [Table("EXPORT_TABLE")]
     public partial class EXPORT_TABLE {
-        [Key]
+        [Dapper.Contrib.Extensions.ExplicitKey]
         public long ID { get; set; }
         public Guid APP_KEY { get; set; }
         public int TABLE_TYPE { get; set; }

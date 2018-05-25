@@ -3,28 +3,26 @@
     using System.ComponentModel.DataAnnotations;
     using System;
 
-    [Table("BANGGIACUOC")]
-    public partial class BANGGIACUOC {
-        [Dapper.Contrib.Extensions.ExplicitKey]
-        public Guid ID { get; set; }
+    [Table("BGCUOC")]
+    public partial class BGCUOC {
+        [Dapper.Contrib.Extensions.Key]
+        public long BGCUOCID { get; set; }
 
         [StringLength(256)]
         public string TENGOI { get; set; }
 
         [StringLength(256)]
         public string PROFILE { get; set; }
+        public string PROFILEIP { get; set; }
         public int TOCDO { get; set; }
         public decimal GIA { get; set; }
-
-        [StringLength(128)]
-        public string KIEU { get; set; }
-        public int KIEUID { get; set; }
+        public int DICHVUVT_ID { get; set; }
         public int GOICUOCID { get; set; }
         public int TICHHOPID { get; set; }
         public int IS_DATA { get; set; }
         public int IS_TH { get; set; }
-        public DateTime? NGAYBATDAU { get; set; }
-        public DateTime? NGAYKETTHUC { get; set; }
+        public DateTime? NGAY_BD { get; set; }
+        public DateTime? NGAY_KT { get; set; }
 
         [StringLength(256)]
         public string CREATEDBY { get; set; }

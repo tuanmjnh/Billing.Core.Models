@@ -4,7 +4,7 @@ namespace Billing.Core.Models {
     using System;
 
     [Table("EXPORT_HD_CD")]
-    public partial class EXPORT_HD_CD : DANH_BA_KHACH_HANG {
+    public partial class EXPORT_HD_CD : DB_THANHTOAN_BKN {
         public Guid CD_ID { get; set; }
         public Guid DBKH_ID { get; set; }
         public DateTime TIME_BILL { get; set; }

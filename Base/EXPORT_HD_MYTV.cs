@@ -4,7 +4,7 @@ namespace Billing.Core.Models {
     using System;
 
     [Table("EXPORT_HD_MYTV")]
-    public partial class EXPORT_HD_MYTV : DANH_BA_KHACH_HANG {
+    public partial class EXPORT_HD_MYTV : DB_THANHTOAN_BKN {
         public Guid MYTV_ID { get; set; }
         public Guid DBKH_ID { get; set; }
         public DateTime TIME_BILL { get; set; }
